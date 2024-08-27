@@ -1,0 +1,626 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Mulish", sans-serif;
+}
+/* ===============header section================= */
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 10px 0px gray;
+}
+header figure {
+  flex-basis: 25%;
+  align-items: center;
+  margin-left: 70px;
+  /* background-color: blue; */
+}
+header nav {
+  flex-basis: 50%;
+  /* background-color: aqua; */
+  display: flex;
+}
+header nav ul {
+  display: flex;
+  gap: 35px;
+}
+header nav ul li a {
+  font-size: 14px;
+  font-weight: 800;
+  color: #0042a2;
+  /* padding: 19px 13px; */
+}
+header .btn {
+  flex-basis: 25%;
+  /* background-color: blueviolet; */
+  display: flex;
+  gap: 15px;
+}
+.button-1 {
+  padding: 9px 20px;
+  border: none;
+  background-color: #44d551;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bold;
+}
+.button-2 {
+  padding: 9px 20px;
+  border: 2px solid #f3842f;
+  background-color: whitesmoke;
+  color: #f3842f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* ==================Banner section=============== */
+.banner {
+  margin-top: 3px;
+  width: 100%;
+}
+.banner figure img {
+  width: 100%;
+}
+/* --==============icon position=============== */
+.icons {
+  position: fixed;
+  top: 300px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* =============free site visit section============== */
+.free-site {
+  width: 100%;
+  background-color: #306598;
+}
+.mid-free-site {
+  width: 1190px;
+  margin: auto;
+  /* background-color: #f3842f; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mid-free-site h1 {
+  margin-left: 10px;
+  font-size: 30px;
+  color: whitesmoke;
+  font-weight: normal;
+  margin-top: 40px;
+}
+.input-part {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+.input-1 {
+  flex-basis: 25%;
+  padding: 16px 10px;
+  margin-bottom: 30px;
+  border: none;
+}
+.input-part button {
+  flex-basis: 25%;
+  margin-bottom: 30px;
+  background-color: #44d551;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+/* ============smart city section=============== */
+.smart-main {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.smart-city {
+  width: 1190px;
+  margin: auto;
+  background-color: #f3f3f3;
+}
+.smart-city h1 {
+  text-align: center;
+  /* margin-top: 60px; */
+  padding-top: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #306598;
+  margin-bottom: 20px;
+}
+.smart-city p {
+  margin: 20px 0px;
+  text-align: center;
+}
+.smart-city .smart-img {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+/* =============project overview section============== */
+.project-overview {
+  width: 100%;
+  background-color: white;
+  padding: 40px 0px;
+}
+.proj-over-container {
+  width: 1190px;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  padding: 40px 0px;
+  /* background-color: #f3842f; */
+}
+.proj-over-container img {
+  flex-basis: 50%;
+  /* padding: 10px; */
+}
+.proj-over-container .project-content {
+  flex-basis: 50%;
+  /* padding: 10px; */
+}
+.project-content h1 {
+  font-size: 28px;
+  letter-spacing: 1.5px;
+  font-weight: bolder;
+  color: #306598;
+  margin: 20px 0px;
+}
+.project-content p {
+  font-weight: 400;
+  color: rgb(12, 12, 12);
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: justify;
+}
+.paraa-tick {
+  display: flex;
+  gap: 10px;
+}
+.paraa-tick i {
+  color: #306598;
+}
+.project-content .proj-btn {
+  padding: 10px 25px;
+  border: none;
+  background-color: #44d551;
+  color: whitesmoke;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* ==============just a plot section=========== */
+.just-a-plot {
+  width: 100%;
+  background-color: #f3f3f3;
+}
+.just-a-plot .plot-mid {
+  width: 1190px;
+  margin: auto;
+  padding-bottom: 80px;
+  /* background-color: #44d551; */
+}
+.just-a-plot .plot-mid h1 {
+  text-align: center;
+  color: #306598;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 0.4px;
+  padding-top: 60px;
+  padding-bottom: 15px;
+}
+.just-a-plot .plot-mid p {
+  text-align: center;
+  letter-spacing: 0.4px;
+  font-size: 16px;
+}
+.plot-inner-part {
+  display: flex;
+  padding-top: 30px;
+}
+.plot-inner-part .plot-content1 {
+  flex-basis: 40%;
+  /* background-color: aquamarine; */
+}
+
+.plot-content1 ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.plot-content1 ul .list-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.plot-content1 ul .list-content img {
+  padding: 5px 0px;
+}
+.plot-content1 ul .list-content p {
+  font-size: large;
+  font-weight: bolder;
+}
+.plot-inner-part .plot-img img {
+  width: 100%;
+}
+.plot-inner-part .plot-img {
+  flex-basis: 20%;
+}
+
+.plot-inner-part .plot-content2 {
+  flex-basis: 40%;
+  /* background-color: aquamarine; */
+}
+.plot-content2 ul .list-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.plot-content2 ul .list-items img {
+  padding: 5px 0px;
+}
+.plot-content2 ul .list-items p {
+  font-size: large;
+  font-weight: bolder;
+}
+.plot-content2 ul {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* <!-- ------------------unnamedd section-------- --> */
+.un-name {
+  width: 100%;
+  background-color: white;
+}
+.un-name-mid {
+  width: 1190px;
+  margin: auto;
+  /* background-color: #f3842f; */
+  text-align: center;
+}
+.un-name-mid img {
+  margin-top: 80px;
+}
+.un-name-mid h3 {
+  font-weight: 900;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 40px;
+}
+.un-name-mid-2 {
+  width: 1190px;
+  margin: auto;
+  /* background-color: #e8ac7f; */
+  padding: 20px 0px;
+}
+
+.un-name-mid-2 p {
+  padding-top: 20px;
+  font-weight: normal;
+  color: black;
+  line-height: 25px;
+  font-size: 15px;
+}
+.un-name-mid-2 h3 {
+  font-weight: bolder;
+  font-size: 15px;
+  padding: 15px 0px;
+  color: black;
+}
+.boxes {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.box-1 {
+  flex-basis: 20%;
+  padding: 35px 30px;
+  /* border: 1px solid black; */
+  text-align: center;
+  box-shadow: 1px 1px 15px 1px rgb(213, 211, 211);
+}
+.box-1 h1 {
+  font-weight: bolder;
+  font-size: 35px;
+}
+.box-1 p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.un-name-mid-3 {
+  width: 1190px;
+  margin: auto;
+  text-align: center;
+  /* background-color: #f3842f; */
+}
+.un-name-mid-3 h1 {
+  font-size: 30px;
+  color: #306598;
+  margin-top: 40px;
+  padding: 20px 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.un-name-mid-3 p {
+  font-weight: bold;
+  color: #306598;
+  line-height: 25px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 20px 0px;
+}
+/* table part */
+.un-name-mid-3 figure {
+  /* max-width: 1080px; */
+  margin: auto;
+  margin: 50px 0px;
+}
+.pic-gal {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px 0px;
+}
+.pic-gal .part-1 {
+  flex-basis: 30%;
+  margin: 20px 15px;
+  text-align: center;
+}
+.pic-gal .part-1 p {
+  font-size: 12px;
+  color: black;
+}
+.site-visit-btn {
+  font-size: 30px;
+  font-weight: 800;
+  background-color: #f3b406;
+  color: black;
+  letter-spacing: 1px;
+  padding: 11px 40px;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 50px;
+  box-shadow: 0px 20px 25px 0px rgb(171, 171, 171);
+}
+.city-proj-heading {
+  font-size: 30px;
+  font-weight: 800;
+  word-spacing: 2px;
+  color: #306598;
+}
+.city-proj-para {
+  font-size: 15px;
+  color: black;
+  font-weight: normal;
+  margin: 30px 0px;
+}
+.ifram-section {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+.site-visit-btn2 {
+  font-size: 25px;
+  font-weight: 900;
+  background-color: #f3b406;
+  color: black;
+  letter-spacing: 1px;
+  padding: 11px 20px;
+  border: none;
+  border-radius: 9px;
+  margin-bottom: 50px;
+  box-shadow: 0px 20px 25px 0px rgb(171, 171, 171);
+}
+/* ==================map section============= */
+.map-section {
+  width: 100%;
+  margin-bottom: 70px;
+}
+/* ==============land mark section============== */
+.land-mark {
+  width: 1190px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+  /* background-color: #f3b406; */
+  align-items: center;
+}
+.bullets {
+  width: 900px;
+  margin: auto;
+}
+.land-mark h1 {
+  font-size: 30px;
+  color: #306598;
+  margin-top: 40px;
+  padding: 20px 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.land-mark p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.land-mark h5 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+}
+.addvertisements {
+  width: 900px;
+  margin: auto;
+  /* background-color: #f3b406; */
+  display: flex;
+  margin: 30px auto;
+}
+.inner-addvertisement {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ==============project gallery section=========== */
+.project-gallery {
+  width: 1190px;
+  margin: auto;
+  /* background-color: #f3842f; */
+}
+.project-gallery h1 {
+  font-size: 30px;
+  color: #306598;
+  margin-top: 40px;
+  padding: 20px 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.project-gallery .all-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-gallery .all-images figure {
+  flex-basis: 20%;
+  padding: 10px 23px;
+}
+/* ===========home loan section=========== */
+.home-loan {
+  width: 1190px;
+  margin: auto;
+  margin-bottom: 60px;
+  /* background-color: #f3842f; */
+}
+.home-loan h1 {
+  font-size: 30px;
+  color: #306598;
+  margin-top: 40px;
+  padding: 20px 0px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.home-loan p {
+  text-align: center;
+}
+.banks {
+  width: 100%;
+  display: flex;
+  margin: 20px 0px;
+}
+.banks figure {
+  flex-basis: 15%;
+  padding: 15px 10px;
+  margin: 10px 10px;
+  box-shadow: 0px 0px 10px 1px rgb(181, 180, 180);
+}
+/* ===============schedule section============== */
+.schedule {
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 40px 0px;
+}
+.mid-schedule {
+  width: 1190px;
+  margin: auto;
+  margin-top: 40px;
+  border: 5px solid #306598;
+  display: flex;
+}
+.mid-schedule figure {
+  flex-basis: 50%;
+  /* background-color: #44d551; */
+  padding: 15px 15px;
+}
+.mid-schedule figure img {
+  width: 100%;
+}
+.mid-schedule .contents {
+  flex-basis: 50%;
+  /* background-color: #f3842f; */
+  padding: 30px 10px;
+}
+.mid-schedule .contents h1 {
+  font-size: 30px;
+  color: #306598;
+  margin-top: 50px;
+  /* padding: 20px 0px; */
+  font-weight: 800;
+  letter-spacing: 1px;
+  /* text-align: center; */
+  margin-bottom: 10px;
+}
+.mid-schedule .contents p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  line-height: 30px;
+  font-size: 14px;
+}
+.mid-schedule .contents button {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  background-color: #44d551;
+  /* border-radius: 7px; */
+  border: none;
+  padding: 15px 20px;
+}
+/* ===============footer================ */
+footer {
+  width: 100%;
+  background-color: #306598;
+}
+.footer-mid {
+  width: 1190px;
+  margin: auto;
+  /* border: 0.2px solid black; */
+  display: flex;
+}
+.inner-foot-1 {
+  flex-basis: 50%;
+  /* background-color: #44d551; */
+}
+.inner-foot-1 p {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+  word-spacing: 10px;
+  padding-top: 100px;
+  padding-bottom: 70px;
+  font-weight: 800;
+}
+.inner-foot-2 {
+  flex-basis: 50%;
+  /* background-color: #d54499; */
+}
+.inner-foot-2 p {
+  padding-top: 100px;
+  padding-bottom: 70px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  line-height: 30px;
+}
+.inner-foot-bottom {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  color: white;
+}
